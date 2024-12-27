@@ -67,6 +67,8 @@ void input_figure(figure& fig) {
 }
 
 int main() {
+    // Установка локали для поддержки русских символов
+    setlocale(LC_ALL, "Russian");
     figure A, B, C, D;
     double x, y;
     int choice;
